@@ -1,13 +1,15 @@
+**Note: any input is denoted as [input]** 
+
           ------ Section A ------
 (do-while) User enters a number between 2 and 10, inclusive.
 (while) Loop runs to place that many spaces between "Hello" and "Goodbye".
 (for) Loop runs to find that number's factorial value.
 ========================================================================
-Enter a number to use for factorial: 1
+Enter a number to use for factorial: [1]
 Error: factorial number must be between 2 and 10, inclusive.
-Enter a number to use for factorial: 12
+Enter a number to use for factorial: [12]
 Error: factorial number must be between 2 and 10, inclusive.
-Enter a number to use for factorial: 4
+Enter a number to use for factorial: [4]
 Hello    Goodbye
  4! = 24
 ________________________________________________________________________
@@ -70,16 +72,16 @@ ________________________________________________________________________
 (do-while) User enters number (n): must be multiple of 3, between 3 and 24.
 (for) Loop prints values n->0, separated by tabs, by 3's.
 ========================================================================
-Enter a multiple of 3: 19
+Enter a multiple of 3: [19]
 Error: Enter a multiple of 3 between 3 and 24, inclusive.
-Enter a multiple of 3: 24
+Enter a multiple of 3: [24]
 24    21    18    15    12    9    6    3    0    
 ________________________________________________________________________
           ------ Section D ------
 (for) Loop shows range of dinner prices from $10.00-> $15.00
 and using .75 increments, calculates 20% tip, total, and prints a table.
 ========================================================================
-  Dinner Price		20% tip		Total
+  Dinner Price          20% tip          Total
 ----------------------------------------------------
       $10.00            $ 2.00            $12.00
       $10.75            $ 2.15            $12.90
@@ -95,11 +97,11 @@ ________________________________________________________________________
 First value will be added to sum#1, second value added to sum #2.
 Actions will be repeated as long as user enters positive numbers.
 ========================================================================
-Enter a number to add to first sum: 1
-Enter a number to add to second sum: 2
-Enter a number to add to first sum: 3
-Enter a number to add to second sum: 4
-Enter a number to add to first sum: 0
+Enter a number to add to first sum: [1]
+Enter a number to add to second sum: [2]
+Enter a number to add to first sum: [3]
+Enter a number to add to second sum: [4]
+Enter a number to add to first sum: [0]
 
 First Sum: 4            Second Sum: 6
 ________________________________________________________________________
