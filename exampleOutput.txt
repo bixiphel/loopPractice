@@ -1,0 +1,105 @@
+          ------ Section A ------
+(do-while) User enters a number between 2 and 10, inclusive.
+(while) Loop runs to place that many spaces between "Hello" and "Goodbye".
+(for) Loop runs to find that number's factorial value.
+========================================================================
+Enter a number to use for factorial: 1
+Error: factorial number must be between 2 and 10, inclusive.
+Enter a number to use for factorial: 12
+Error: factorial number must be between 2 and 10, inclusive.
+Enter a number to use for factorial: 4
+Hello    Goodbye
+ 4! = 24
+________________________________________________________________________
+          ------ Section B ------
+(while) Loop prints powers of 2 between 1 and 50, inclusive.
+========================================================================
+2 to the 0 power = 1
+2 to the 1 power = 2
+2 to the 2 power = 4
+2 to the 3 power = 8
+2 to the 4 power = 16
+2 to the 5 power = 32
+2 to the 6 power = 64
+2 to the 7 power = 128
+2 to the 8 power = 256
+2 to the 9 power = 512
+2 to the 10 power = 1024
+2 to the 11 power = 2048
+2 to the 12 power = 4096
+2 to the 13 power = 8192
+2 to the 14 power = 16384
+2 to the 15 power = 32768
+2 to the 16 power = 65536
+2 to the 17 power = 131072
+2 to the 18 power = 262144
+2 to the 19 power = 524288
+2 to the 20 power = 1048576
+2 to the 21 power = 2097152
+2 to the 22 power = 4194304
+2 to the 23 power = 8388608
+2 to the 24 power = 16777216
+2 to the 25 power = 33554432
+2 to the 26 power = 67108864
+2 to the 27 power = 134217728
+2 to the 28 power = 268435456
+2 to the 29 power = 536870912
+2 to the 30 power = 1073741824
+2 to the 31 power = 2147483648
+2 to the 32 power = 4294967296
+2 to the 33 power = 8589934592
+2 to the 34 power = 17179869184
+2 to the 35 power = 34359738368
+2 to the 36 power = 68719476736
+2 to the 37 power = 137438953472
+2 to the 38 power = 274877906944
+2 to the 39 power = 549755813888
+2 to the 40 power = 1099511627776
+2 to the 41 power = 2199023255552
+2 to the 42 power = 4398046511104
+2 to the 43 power = 8796093022208
+2 to the 44 power = 17592186044416
+2 to the 45 power = 35184372088832
+2 to the 46 power = 70368744177664
+2 to the 47 power = 140737488355328
+2 to the 48 power = 281474976710656
+2 to the 49 power = 562949953421312
+2 to the 50 power = 1125899906842624
+________________________________________________________________________
+          ------ Section C ------
+(do-while) User enters number (n): must be multiple of 3, between 3 and 24.
+(for) Loop prints values n->0, separated by tabs, by 3's.
+========================================================================
+Enter a multiple of 3: 19
+Error: Enter a multiple of 3 between 3 and 24, inclusive.
+Enter a multiple of 3: 24
+24    21    18    15    12    9    6    3    0    
+________________________________________________________________________
+          ------ Section D ------
+(for) Loop shows range of dinner prices from $10.00-> $15.00
+and using .75 increments, calculates 20% tip, total, and prints a table.
+========================================================================
+  Dinner Price		20% tip		Total
+----------------------------------------------------
+      $10.00            $ 2.00            $12.00
+      $10.75            $ 2.15            $12.90
+      $11.50            $ 2.30            $13.80
+      $12.25            $ 2.45            $14.70
+      $13.00            $ 2.60            $15.60
+      $13.75            $ 2.75            $16.50
+      $14.50            $ 2.90            $17.40
+________________________________________________________________________
+          ------ Section E ------
+2 different sums will be calculated.
+(while) Loop: User enters unknown number of integer numbers.
+First value will be added to sum#1, second value added to sum #2.
+Actions will be repeated as long as user enters positive numbers.
+========================================================================
+Enter a number to add to first sum: 1
+Enter a number to add to second sum: 2
+Enter a number to add to first sum: 3
+Enter a number to add to second sum: 4
+Enter a number to add to first sum: 0
+
+First Sum: 4            Second Sum: 6
+________________________________________________________________________
