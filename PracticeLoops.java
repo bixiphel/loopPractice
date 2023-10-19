@@ -1,5 +1,4 @@
 /**
- * Name: Jack Allen (allen)
  * Course: CSCI 241 - Computer Science I
  * Section: 002
  * Assignment: 5
